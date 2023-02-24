@@ -54,6 +54,7 @@ while (i < daysOfWeek.length) {
 
 
 
+// Anonomous Function Examples:
 const add = (x, y) => {
     return x + y;
   }
@@ -75,6 +76,21 @@ const apply = (a, b, myFunction) => {
 
 const resultOne = apply(10, 2, sub);
 console.log(resultOne);
+
+
+
+// Map example
+
+const numArray = [1, 2, 3, 4, 5, 6, 7];
+
+// const secondArray = numArray.map((num) => {
+//     return num + 5
+// });
+
+const secondArray = numArray.map(num => num + 5);
+
+console.log(secondArray);
+
 
 
 
