@@ -1,0 +1,66 @@
+.score{
+    color: rgb(138, 211, 186);
+    text-align: right;
+    font-size: 35px;
+    margin: 0;
+    padding-right: 180px ;
+    background-color: black;
+}
+body{
+    background-color: rgb(138, 211, 186);
+    margin: 0;
+}
+.wrap{
+    background-color: black;
+    height: 100%;
+    margin: 40px;
+    padding-top: 40px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 0;
+    background-color: black;
+}
+.black{
+    background-color: black;
+}
+.red{
+    background-color: red;
+}
+.brick{
+    height: 40px;
+    border: 2px black solid;
+}
+.yellow{
+    background-color: yellow;
+}
+.white{
+    background-color: white;
+}
+.square{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.bar{
+    display: grid;
+    grid-template-columns: 5fr 2fr 5fr;
+    grid-template-rows: 1fr 1fr;
+}
+.mint{
+    background-color: rgb(138, 211, 186);
+}
+html{
+    background-color: black;
+}
